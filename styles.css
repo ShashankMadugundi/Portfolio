@@ -1,0 +1,723 @@
+body{
+    background-color: #1f2833;
+    margin: 0px;
+}
+
+.navbar{
+    height: 9vh;
+    color:#66fcf1;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #0b0c10;
+    align-items: center;
+}
+
+.menu{
+    display: none;
+}
+.navbar ul{
+    list-style:none ;
+    display: flex;
+    gap:90px;
+}
+.scrollButton{
+    cursor: pointer;
+    background-color:black;
+    color:#66fcf1;
+    border:none;
+    font-size: 13pt;
+}
+.subhead{
+    font-family:sans-serif; 
+    padding-left: 20px; 
+    color: #66fcf1; 
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.box1{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    color: #66fcf1;
+    gap:100px;
+    font-family: sans-serif;
+}
+.box1 img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+}
+.t1 p{
+    margin:0px; 
+    font-size: 15pt; 
+    text-align: center; 
+    font-weight: lighter;
+}
+.t1 h1{
+    margin:0px; 
+    font-size: 30pt;
+}
+.t1 h2{
+    margin:0px; 
+    font-size: 17pt; 
+    font-weight: lighter;
+    padding-left: 10px;
+}
+.t1 button{
+    width:180px;
+    color: #66fcf1;
+    background-color: #0b0c10;
+    text-align: center;
+    font-size: 13pt;
+    border: 2px solid #66fcf1;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.box2{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    color: white;
+    height: 500px;
+    display: flex; 
+    gap: 50px;
+    font-size: 15pt;
+    line-height: 40px;
+}
+.box2 p{
+    margin-top: 0px;
+}
+.box2 img{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-around;
+    font-size: 17pt;
+    margin-bottom: 100px;
+}
+.box3 p{
+    text-align: center;  
+    font-weight: 600; 
+    font-size: 22pt;
+}
+.first{
+    border-radius: 10px;
+    border: 2px solid #66fcf1;
+    color: white;
+    width: 25vw;
+}
+.second{
+    border-radius: 10px;
+    border: 2px solid #66fcf1;
+    color: white;
+    width: 25vw;
+}
+.second p{
+    line-height: 30px;       
+}
+.box3 ul{
+    list-style: none;
+    line-height: 50px;
+}
+
+
+.box4{
+    display: grid;
+    height: 60vh;
+    width: 97%;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 22px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+    color: white;
+    margin-bottom: 100px;
+    grid-auto-flow: dense;
+}
+.box4 > div{
+    padding-left: 10px;
+    border: 2px solid #66fcf1;
+    border-radius: 10px;
+}
+.link{
+    float: right;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.box4 a{
+    color:#00baff;
+}
+
+.edu{
+    color:white;
+    font-size: 15pt;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+.edu ul li a{
+    color:#66fcf1;
+}
+
+.cont{
+    background-color: rgb(231, 245, 244);
+}
+.cont h1{
+    color: black;
+    padding-top: 30px;
+}
+.cont p{
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 15pt;
+    padding-left: 20px;
+    font-family: sans-serif;
+
+}
+.icons{
+    float: right;
+    margin-right: 20px;
+}
+.icons svg{
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) and (min-width:1000px){
+    .navbar{
+        justify-content: space-between;
+        height: 11vh;
+    }
+    .menu{
+        display: none;
+    }
+    .navbar ul{
+        list-style:none ;
+        font-size: 15pt;
+        display: flex;
+        gap:120px;
+        position: relative;
+        right:90px;
+    }
+    .box2{
+        line-height: 30px;
+        font-size: 13pt;
+        height: 340px;
+    }
+    .box2 img{
+        width:250px;
+        height: 250px;
+    }
+    .box3{
+        display: flex;
+        justify-content: space-around;
+        font-size: 15pt;
+        margin-bottom: 80px;
+    }
+    .first{
+        width:35vw;
+    }
+    .second{
+        width: 35vw;
+    }
+    ul svg{
+        width: 16x;
+        height: 16px;
+    }
+    .box3 p{
+        font-weight: 600; 
+        font-size: 18pt;
+    }
+    .box4{
+        padding-right: 0px;
+        height: 530px;
+        
+    }
+    .edu{
+        font-size: 13pt;
+    }
+    .cont p{
+        font-weight: 500;
+        font-size: 13pt;
+    
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:999px) and (min-width:750px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu{
+        display: none;
+    }
+    .navbar{
+        height: 11vh;
+    }
+    .navbar h1{
+        font-size: 16pt;
+    }
+    .navbar ul{
+        list-style:none ;
+        display: flex;
+        font-size: 12pt;
+    }
+    .subhead{
+        font-family:sans-serif; 
+        padding-left: 20px; 
+        color: #66fcf1; 
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .box1{
+        height: 90vh;    
+        gap:100px;
+        font-family: sans-serif;
+    }
+    .box1 img{
+        width:150px;
+        height: 150px;
+    }
+    
+    .t1{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        align-items: center;
+    }
+    .t1 button{
+        width:130px;
+        text-align: center;
+        font-size: 12pt;
+        border-radius: 30px;
+        height: 35px;
+    }
+    .t1 p{
+        margin:0px; 
+        font-size: 9pt; 
+        text-align: center; 
+        font-weight: lighter;
+    }
+    .t1 h1{
+        margin:0px; 
+        font-size: 23pt;
+    }
+    .t1 h2{
+        margin:0px; 
+        font-size: 11pt; 
+        font-weight: lighter;
+    }
+
+    
+.box2{
+    height: 290px;
+    font-size: 13pt;
+    line-height: 30px;
+}
+.box2 img{
+    display: none;
+}
+
+.box3{
+    margin-bottom: 50px;
+}
+.box3 p{
+    font-size: 15pt;
+}
+.box3 ul{
+    line-height: 40px;
+}
+.first{
+    width: 35vw;
+    font-size: 14pt;
+}
+.second{
+    width: 35vw;
+    font-size: 14pt;
+}
+
+ul svg{
+    width: 15x;
+    height: 15px;
+}
+
+.box4{
+    display: grid;
+    height: 100%;
+    width: 95%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+
+.edu{
+    font-size: 13pt;
+}
+.edu ul{
+    padding-left: 20px;
+}
+
+
+.cont p{
+    font-size: 13pt;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width:749px) and (min-width:550px){
+    .navbar{
+        /* width: 100vw; */
+        height: 15vh;
+    }
+    .menu{
+        display: none;
+    }
+    .navbar h1{
+        font-size: 16pt;
+    }
+    .navbar ul{
+        list-style:none ;
+        display: flex;
+        font-size: 13pt;
+        gap:35px;
+        padding-left: 0px;
+    }
+    .subhead{
+        font-family:sans-serif; 
+        padding-left: 20px; 
+        color: #66fcf1; 
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: 20pt;
+    }
+    .box1{
+        height: 90vh;    
+        gap:100px;
+        font-family: sans-serif;
+    }   
+    .box1 img{
+        width:120px;
+        height: 120px;
+    }
+    
+    .t1{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        align-items: center;
+    }
+    .t1 .t1 button{
+        width:120px;
+        text-align: center;
+        font-size: 10pt;
+        height: 30px;
+    }
+    .t1 p{
+        margin:0px; 
+        font-size: 11pt; 
+        text-align: center; 
+        font-weight: lighter;
+    }
+    .t1 h1{
+        margin:0px; 
+        font-size: 17pt;
+    }
+    .t1 h2{
+        margin:0px; 
+        font-size: 12pt; 
+        font-weight: lighter;
+    }
+
+    
+.box2{
+    height: 270px;
+    font-size: 10pt;
+    line-height: 25px;
+}
+.box2 img{
+    display: none;
+}
+
+.box3{
+    margin-bottom: 50px;
+}
+.box3 p{
+    font-size: 13pt;
+}
+.box3 ul{
+    line-height: 30px;
+}
+.first{
+    width: 45vw;
+    font-size: 10pt;
+}
+.second{
+    width: 45vw;
+    font-size: 10pt;
+}
+
+ul svg{
+    width: 13x;
+    height: 13px;
+}
+
+.box4{
+    display: grid;
+    height: 100%;
+    width: 95%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    padding-right: 0px;
+}
+
+
+.edu{
+    font-size: 10pt;
+    
+}
+.edu ul{
+    padding-left: 20px;
+    list-style-type: disc;
+}
+.edu li{
+    /* padding-left: 20px; */
+    line-height: 30px;
+}
+
+.cont h1{
+    padding-top: 15px;
+}
+.cont p{
+    font-size: 10pt;
+    padding-left: 20px;
+    margin-top: 10px;
+} 
+.icons svg{
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+}
+
+
+
+
+@media (max-width:550px){
+    .navbar{
+        height: 10vh;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .navbar h1{
+        font-size: 20pt;
+        text-align: center;
+    }
+    .navbar ul{
+        display: none;
+        
+    }
+    
+    .menu-icon{
+        display: flex;
+        gap:5px;
+        flex-direction: column;
+       
+    }
+    .navbar div *{
+        width: 35px;
+        height: 4px;
+        background-color: white;
+    }
+    .menu{
+        display: none;
+        z-index: +10;
+        position: relative;
+        margin-top: 0px;
+        font-size: 13pt;
+        line-height: 50px;
+        height: 200px;
+        width:88%;
+        background-color: black;
+        color:#66fcf1;
+    }
+    /* .menu ul{ */
+        li:hover {
+        color: white;
+        }
+    /* } */
+    .subhead{
+        font-family:sans-serif; 
+        padding-left: 20px; 
+        color: #66fcf1; 
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: 20pt;
+    }
+    .box1{
+        height: 90vh;    
+        gap:50px;
+        display: flex;
+        flex-direction: column;
+    }   
+    .box1 img{
+        width:150px;
+        height: 150px;
+    }
+    
+    .t1{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 50px; 
+    }
+    .t1 button{
+        width:180px;
+        text-align: center;
+        font-size: 15pt;
+        height: 50px;
+    }
+    .t1 p{
+        margin:0px; 
+        font-size: 15pt;
+        position: relative;
+        bottom: 200px; 
+        text-align: center; 
+        font-weight: lighter;
+        text-align: center;
+    }
+    .t1 h1{
+        margin:0px; 
+        font-size: 20pt;
+    }
+    .t1 h2{
+        margin:0px; 
+        font-size: 16pt; 
+        font-weight: lighter;
+        line-height:35px;
+    }
+
+    
+.box2{
+    height: fit-content;
+    font-size: 11pt;
+    line-height: 25px;
+    text-align: justify;
+}
+.box2 img{
+    display: none;
+}
+
+.box3{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.box3 p{
+    font-size: 13pt;
+}
+.box3 ul{
+    line-height: 40px;
+}
+
+.first{
+    width: 70vw;
+    font-size: 14pt;
+}
+.second{
+    width: 70vw;
+    font-size: 14pt;
+}
+
+ul svg{
+    width: 15x;
+    height: 15px;
+}
+
+.box4{
+    padding-left: 8px;
+    line-height: 22px;
+    display: grid;
+    height: 100%;
+    width: 95%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:30px;
+    margin-bottom: 50px;
+    padding-right: 0px;
+}
+
+.edu{
+    font-size: 12pt;
+    
+}
+.edu ul{
+    padding-left: 20px;
+    list-style-type: disc;
+    
+}
+.edu li{
+    /* padding-left: 20px; */
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.cont h1{
+    padding-top: 15px;
+}
+.cont p{
+    font-size: 12pt;
+    padding-left: 20px;
+    margin-top: 10px;
+} 
+.icons svg{
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+}
